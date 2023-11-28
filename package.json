@@ -7,9 +7,17 @@
     "build": "parcel build ./src/index.html"
   },
   "devDependencies": {
-    "parcel": "^2.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.2.0"
+    "eslint": "^7.2.0",
+    "parcel": "^2.0.0"
   },
-  "keywords": ["css", "javascript"]
+  "keywords": [
+    "css",
+    "javascript"
+  ],
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "express": "^4.18.2",
+    "websocket": "^1.0.34"
+  }
 }
